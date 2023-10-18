@@ -19,7 +19,7 @@ function idade(){
     let idade = prompt("Indique sua idade: ");
     console.log("Sua idade é ", idade);
     frase.textContent = "Sua idade é "+ idade; 
-}
+};
 
 function exercicio1(){
     let nota1 = prompt("Digite  a primeira nota: ");
@@ -30,7 +30,7 @@ function exercicio1(){
     nota3 = parseFloat(nota3);
     media = (nota1+nota2+nota3)/3;
     resposta.textContent = "A média do aluno é  " + media.toFixed(2);
-}
+};
 
 function exercicio2(){
     let nota1 = prompt("Digite  a primeira nota: ");
@@ -47,7 +47,7 @@ function exercicio2(){
     peso3 = parseFloat(peso3);
     media = (nota1*peso1)+(nota2*peso2)+(nota3*peso3);
     resposta.textContent = "A média do aluno é  " + media.toFixed(2);
-}
+};
 
 function exercicio3(){
     let salario = prompt("Digite  seu sálario: ");
@@ -55,13 +55,13 @@ function exercicio3(){
     percentoal = (percentoal/100)+1;
     aumento = salario*percentoal;
     resposta.textContent = "O aumento foi de : R$ " + aumento.toFixed(2);
-}
+};
 
 function exercicio4(){
     let salario = prompt("Digite  seu sálario: ");
     total = salario*0.98;
     resposta.textContent = "O aumento foi de : R$ " + total.toFixed(2);
-}
+};
 
 function exercicio5(){
     let num=0;
@@ -74,7 +74,7 @@ function exercicio5(){
     d = Math.pow(num,1/3);
     e = a+b;
     resposta.textContent = "A: "+a.toFixed(2)+" - B: "+b.toFixed(2)+" - C: "+c.toFixed(2)+" - D: "+d.toFixed(2)+" - E: "+e.toFixed(2);
-}
+};
 
 function exercicio6(){
     pes = prompt("Digite uma medida em pés : ");
@@ -97,7 +97,7 @@ function exercicio8(){
     imposto = 0.03*salarioBruto;
     salario= salarioBruto-imposto;
     resposta.textContent = "O sálario é de : R$ " + salario.toFixed(2);
-}
+};
 
 function exercicio9(){
     let conta = 0;
@@ -110,5 +110,5 @@ function exercicio9(){
     cpmf2 =conta*0.0038;
     cpmf3 = cpmf1 + cpmf2;
     resposta.textContent = "O primeiro saque foi de " + saque.toFixed(2) +" R$ e o segundo saque foi de " + saque2.toFixed(2) + " R$. O valor descontado do CPMF foi de "+ cpmf3.toFixed(2) +" R$";
-}
+};
 
